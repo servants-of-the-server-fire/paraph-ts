@@ -1,6 +1,5 @@
 .gitignore
 .npmignore
-README.md
 docs/Account.md
 docs/AccountApi.md
 docs/AccountLimits.md
