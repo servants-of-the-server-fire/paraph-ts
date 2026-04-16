@@ -1,0 +1,33 @@
+
+# RequestStatus
+
+Lifecycle status of a document request. - `success` — fill completed (and all signers signed, if any) - `error` — terminal failure - `pending` — awaiting signer action - `cancelled` — caller cancelled before completion 
+
+## Properties
+
+Name | Type
+------------ | -------------
+
+## Example
+
+```typescript
+import type { RequestStatus } from 'paraph'
+
+// TODO: Update the object below with actual values
+const example = {
+} satisfies RequestStatus
+
+console.log(example)
+
+// Convert the instance to a JSON string
+const exampleJSON: string = JSON.stringify(example)
+console.log(exampleJSON)
+
+// Parse the JSON string back to an object
+const exampleParsed = JSON.parse(exampleJSON) as RequestStatus
+console.log(exampleParsed)
+```
+
+[[Back to top]](#) [[Back to API list]](../README.md#api-endpoints) [[Back to Model list]](../README.md#models) [[Back to README]](../README.md)
+
+
