@@ -10,6 +10,7 @@ Name | Type
 `plan` | string
 `sandbox_mode` | boolean
 `api_key_name` | string
+`api_key_sandbox` | boolean
 `limits` | [AccountLimits](AccountLimits.md)
 `usage` | [AccountUsage](AccountUsage.md)
 
@@ -24,6 +25,7 @@ const example = {
   "plan": null,
   "sandbox_mode": null,
   "api_key_name": null,
+  "api_key_sandbox": null,
   "limits": null,
   "usage": null,
 } satisfies Account
