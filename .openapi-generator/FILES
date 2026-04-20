@@ -4,6 +4,7 @@ docs/Account.md
 docs/AccountApi.md
 docs/AccountLimits.md
 docs/AccountUsage.md
+docs/AuthApi.md
 docs/CreateRequestRequest.md
 docs/CreateWebhook201Response.md
 docs/CreateWebhook201ResponseWebhook.md
@@ -15,6 +16,9 @@ docs/Field.md
 docs/GetAccount200Response.md
 docs/ListInfo.md
 docs/ModelError.md
+docs/Register201Response.md
+docs/Register201ResponseAuth.md
+docs/RegisterRequest.md
 docs/RequestListResponse.md
 docs/RequestResponse.md
 docs/RequestStatus.md
@@ -42,6 +46,7 @@ docs/WebhookResponse.md
 docs/WebhooksApi.md
 package.json
 src/apis/AccountApi.ts
+src/apis/AuthApi.ts
 src/apis/RequestsApi.ts
 src/apis/SignersApi.ts
 src/apis/TemplatesApi.ts
@@ -62,6 +67,9 @@ src/models/Field.ts
 src/models/GetAccount200Response.ts
 src/models/ListInfo.ts
 src/models/ModelError.ts
+src/models/Register201Response.ts
+src/models/Register201ResponseAuth.ts
+src/models/RegisterRequest.ts
 src/models/RequestListResponse.ts
 src/models/RequestResponse.ts
 src/models/RequestStatus.ts

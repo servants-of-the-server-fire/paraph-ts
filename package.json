@@ -1,6 +1,6 @@
 {
   "name": "paraph",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "description": "OpenAPI client for paraph",
   "author": "OpenAPI-Generator",
   "repository": {
